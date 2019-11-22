@@ -1,0 +1,81 @@
+--Git -> sürüm kontrol sistemi (en çok kullanýlan, uzaktan beraber proje üzerinde çalýþma)
+git daðýtýk bir sistem
+
+--stack over flow developer -> soru cevap sitesi
+-birisiyle paylaþma , geliþtirmeye açýk, deðiþiklikleri kontrol edilebilir, geriye dönülebilir.
+
+--repository-> depolama alaný. bizim oluþturabileceðimiz bir depolama alanýdýr. diðer insanlarýn katkýlarý,bizim yaptýðýmýz deðiþiklikler vs herþeyi kontrol edebiliyoruz.
+
+--Github -> git sürüm kontrol sisteminin arayüzü. (gitbuck,gitlab)
+
+--Git bash -> komutlarý yazacaðýmýz kýsým 
+ 
+--gaünsoftwarecommunity-> git/github
+R. Stallman
+L. Tovalds
+
+--uzantý ve gizli dosyalar görünümünü açmamýz gerekiyor
+
+--dosya içerisinde sað týklayýp git bash here týklayýnca bu kloserde açýlacak 
+bunu cd desktop dediðimiz zaman masaüstünde iþliyor
+
+--takým yapýlandýrmayý ilk kurduðumuzda yapmamýz gerekiyor
+
+--git init yazmalýyýz her proje baþlangýcýnda. Projeyi oluþturma komutu.
+
+--git status -> durumumuzu gösteriyor, yapmamýz gereken bir þey var mý onu görebiliyoruz, projede yaptýðýmýz ve yapmamýz gerekenleri görüyoruz
+
+--git add .  -> birden fazla dosyada yaptýðýmýz deðiþikliklerin hepsini alýr. mesela text dosyamýz içerisine bir þey yazdýðýmýzda bunu ekleyebiliyoruz
+git add.deneme 
+
+--git commit -m  "create a new file"  -> iki týrnak arasýna istediðimiz her þeyi yazabiliyoruz, kýsa mesaj kýsmý neden bu deðiþikliði yaptýðýmýzý anlatýyor
+
+--git log -> attýðýmýz commitleri gösteriyor, deðiþiklikleri gösteriyor, kimin ne yaptýðýný görebiliyoruz.
+
+--git reset --hard be6c8467a6024faa50ce5da984c6bdbe3649e800
+ kopyaladýðýmmz dönmek istediðimiz commit ailesini yapýþtýrýyourz  --> her hangi bir commite geri dönmek istiyorsak kullanýyoruz. Yaptýðýmýz geri alýyoruz ama bir kere bunu kullanýrsak tekrar yaptýðýmýz þeye (yani ileriye) gidemiyoruz
+
+--git diff --> bir önceli dosya ile yaptýðýmýz deðiþikliði görebilmemizi saðlýyor
+deðiþiklik yap, add, commit , dosyada deðþiklik yap ekle çýkar , sonra diff diyoruz -> ekleyip ççýkardýklarýmýzý görebiliyoruz
+
+-- git branch -->
+kaç dal var bakabilmek için
+ hepimiz master dalýnda çalýþýtyor isek, yeni yollar eklenebiliyor gitte
+git branch "yeni_dal" ---> çalýþmak istediðim dalý açýyorum
+
+-git checkout yeni_dal --> master dalýndan çýkýyoruz kenidmize yepyeni dal açýyoruz
+git checkout master --> yaptýðým deðiþiklikleri master ile birleþtirmek için bu iki komut
+git merge yeni-dal           
+(yeni dal açýp branch ile daha sonra masterdan çýkýp yeni dal' geçmek için checkout ile geçiþ yapýyoruz, dal üzerinde deðþiklikleri master'a atmak için checkout ile master'a geçip merge yapmmalýyýz.
+-- git branch -d yeni_dal --> dalý tamamen siliyoruz
+(yeni  dala geçip master'ý da silebiliriz yani master'ý tamamen silebiliyoruz )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+Git bizim yazdýðýmýz kodlarý baþkasýnýn eriþimine açmak için kullanýlýr
+
+git github üzerinden yazýlýmcýlara kolaylýk saðlar ve yazdýklarý kodlarý diðer yazýlýmcýlar tarafýndan görülüp deðiþtirilmesine imkan saðlar  
+her yeni kod yazmaya baþlarken "git init" komutuyla baþlýyorsun
+
+git status komutu ile durumuna bakarýz
+
+git add komutu yaptýðýmýz deðiþikliði git bash e ekler 
+
+git log komutu ile kimin ne yaptýðý geçmiþ ile ilgili herþeyi görebiliyorsun
+
+git branch komutu ile bize birden fazla dal olanaðý saðlar ve böylece ayný git üzerinde birden fazla insanla beraber çalýþýlabilir
+
+git reset --hard komutu ile dosyanýn kodunu yapýþtýrarak silebiliriz
+
+git checkout kullandýðýn dalý deðiþtirme 
+
+git merge komutu ile senin dalýnda yaptýðýn deðiþiklikler master dalýnda toplanýyor
+
+git branch -d komutu ile dalýn ismini yazarak açtýðýn dalý siliyorsun
+

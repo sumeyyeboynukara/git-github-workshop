@@ -1,0 +1,21 @@
+git - sürüm kontrol sistemi
+github - uzaktan çalisan insanlar ayni projede çalisabilirler
+stack overflow - q&a
+repositor - depolama/önceki sürümleri barindiran bir depo
+git bash here klasörün içinde çalistir
+git init - her projeye baslarken yaz, repo klasörünü açar
+isim ve maili tek seferlik yaz
+git status - durumu belirtir, degisiklikleri anlatir
+git add . - filename.txt de olabilir, sadece nokta olursa son eklenenleri çikarir
+git commit -m "-----------"
+git log - logu verir, unique olan bir uzanti var + yapilan degisiklikler yazar
+git reset --hard -------------- buraya bi commitin kodunu yazarsan oraya dönersin
+ctrl shift z - editörden geri alma komutu tek adimlik
+git diff - dosyanin önceki haliyle olan farki + - seklinde
+degisiklik yap, add, commit, degistir, diff
+git branch - *master yani master dalindayim
+yeni dallar eklenebiliyor gitte
+git branch "yeni_dal" sonra git branch yap, master ve yeni_dal çikar
+git checkout "yeni_dal" - yeni dala switchledim
+git merge yeni_dal - yeni daldaki degisiklikleri master dalina aktarmak için
+git branch -d yeni_dal - yeni dali silmek için

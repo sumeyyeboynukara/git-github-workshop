@@ -1,0 +1,20 @@
+git:
+sürüm kontrol sistemidir.
+ortak çalýþma alaný ve anlýk deðiþtirilebilen sistem.versiyon deðiþikliði ilkel þekilde sürekli klasörlendirmeyle deðil direkt deðiþimlerle yapýlabiliyor.
+
+git  hub:
+git'in ara yüzü. microsoft yakýn zamanlarda satýn aldý
+yeni versiyon olarak bir sürü dosya kaydetmek yerine anlýk deðiþiklikler yapýp deðiþiklikleri geçmiþte görmemizi saðlar.
+
+richard stallman:açýk kaynaðý ortaya çýkaran adam. kapalý kaynakalara karþý. ted konuþmasýný diinle.
+linus torvalds:linux iþletim sistemi kurucusu ted konuþmasý izle.
+
+yazýlým sektörünün bu kadar hýzlý geliþme sebebi açýk kaynaktýr. baþka insanlar senin yazdýðýn kodlarý okuyarak hem kendini geliþtirebilir hem de senin projene katkýda bulunabilir.
+
+ac
+git init:baþlat
+git status:duruma bak ve bir iþlem yap
+git add:
+git add.:tüm dosyalarý deðiþtirilebilir ayarlama
+git commit -m "yapýlan deðiþikliðe dair bir mesaj":
+git log:yaptýðýn deðiþiklikleri görüyorsun
