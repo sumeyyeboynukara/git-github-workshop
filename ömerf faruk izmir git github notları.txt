@@ -1,0 +1,16 @@
+git genel bir sürüm kontrol sistemidir. daðýtýk bir sistemdir. 
+repository : projede yaptýðýn bütün deðiþiklikleri yani bütün versiyonlarý depolar.
+github git'in bir ara yüzü. 
+git init : yeni bir repository açma
+git add . : yeni dosyayý ekleme
+git log : aptýðýn tüm deðiþiklikleri görme
+git status : durumu görme 
+git reset --hard : geçmiþe dönme 
+git commit -m "reason" : yaptýðýn deðiþikliðin sebebi 
+git diff : önceki versiyonda ne deðiþiklik yaptýðýný gösterir
+git branch : mevcut dallarý gör
+git branch "dalýn ismi" : yeni dalý aç
+git checkout : mevcut dallar arasýnda geçiþ yap 
+git merge "dalýn adý" : dallarda yapýlan deðiþiklikleri birleþtir (?)
+git branch -d : dallardan istediðini silme ( mevcut dalý ve master'ý silemezsin )
+git clone web adresi.git uzaktaki sunucudaki git reposunu pcye almaný saðlar
