@@ -1,0 +1,9 @@
+repository depolama dosyasi
+gitlan
+bitbucket
+github
+açik kaynakli üzerine yazdigimiz kodlari kaydeder ve saklar degistirilmesi kolaydir
+git log degistirme zamani vs.
+ git commit -m "tanimla"
+git status özellikler
+git add.  uzantisini aç 
