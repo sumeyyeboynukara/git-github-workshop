@@ -1,0 +1,11 @@
+*git status; durumumuz gösteren komut
+*git add .; komut ekleme
+*git log; geçmiþte atýlan komutlar
+*git reset --hard ve deðiþtirilmek veya gidilmek istenen commit id ile geçmiþ sürüme döner
+*git diff; eski haliyle yeni halini gösterir.
+*git branch; bulunulan dalý gösterir.
+*git branch (açmak istenilen dal); komutu ile açýlmak istenilen dal açýlabilir.
+*git checkout; eski dala geçiþ yapýlýr
+*git merge; yeni daldaa yapýlan deðiþiklikleri eski dala ekler.
+*git branch -d (açýlan dalýn ismi); açýlan dal silinir.
+*git clone (adres).git; uzak sunucudakini masaüstüne getirir.
